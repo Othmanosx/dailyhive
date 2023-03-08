@@ -254,7 +254,7 @@ const Chart = () => {
                 opacity="0.8"
               >
                 <path
-                  stroke="url(#wa-vectors-list__lines-sm-paint-1--keywords)"
+                  stroke="lightblue"
                   strokeWidth={16}
                   d="M8.00001 0L8.00001 236.556C8.00001 295.422 48.1489 346.698 105.296 360.819L185.428 380.618C199.861 384.184 210 397.134 210 412V412"
                 />
@@ -265,7 +265,7 @@ const Chart = () => {
                 transform="translate(56, 59)"
               >
                 <path
-                  stroke="url(#wa-vectors-list__lines-sm-paint-2--keywords)"
+                  stroke="#0053CB"
                   strokeWidth={16}
                   d="M8.00001 0L8.00001 194.762C8.00001 244.319 40.2012 288.129 87.5 302.921L142.933 320.257C157.252 324.735 167 337.998 167 353V353"
                 />
@@ -276,7 +276,7 @@ const Chart = () => {
                 transform="translate(112, 117)"
               >
                 <path
-                  stroke="url(#wa-vectors-list__lines-sm-paint-3--keywords)"
+                  stroke="green"
                   strokeWidth={16}
                   d="M8.00001 0L8.00001 159.358C8.00001 196.557 29.9637 230.247 64 245.257L97.0825 259.846C111.012 265.989 120 279.777 120 295V295"
                 />
@@ -287,7 +287,7 @@ const Chart = () => {
                 transform="translate(220, 222)"
               >
                 <path
-                  stroke="url(#wa-vectors-list__lines-sm-paint-5--keywords)"
+                  stroke="red"
                   strokeWidth={16}
                   d="M8 0L8 97.112C8 109.835 9.89683 122.486 13.6279 134.65L17.3721 146.856C21.1032 159.019 23 171.67 23 184.393L23 190"
                 />
@@ -297,7 +297,7 @@ const Chart = () => {
                 transform="translate(238, 293)"
               >
                 <path
-                  stroke="url(#wa-vectors-list__lines-sm-paint-0--keywords)"
+                  stroke="orange"
                   strokeWidth={16}
                   d="M49 0L49 5.70467C49 28.0892 41.8141 49.8825 28.5 67.877L21.928 76.7592C12.8822 88.9849 8 103.792 8 119V119"
                 />
@@ -308,7 +308,7 @@ const Chart = () => {
                 transform="translate(168, 174)"
               >
                 <path
-                  stroke="url(#wa-vectors-list__lines-sm-paint-4--keywords)"
+                  stroke="#1D7BF7"
                   strokeWidth={16}
                   d="M8.00008 0L8.00003 122.217C8.00001 147.824 19.8063 172 40 187.745L52.044 197.135C64.6373 206.954 72 222.031 72 238V238"
                 />
@@ -394,7 +394,11 @@ const Chart = () => {
             style={{ overflow: "hidden" }}
           >
             <div className="wa-vectors-list__total-item">
-              <img src="/ai.avif" alt="" />
+              <img
+                src="/ai.avif"
+                alt=""
+                style={{ filter: "hue-rotate(137deg)" }}
+              />
             </div>
           </div>
           <div className="wa-vectors-list__preview wa-vectors-list__preview--no-data">
@@ -487,7 +491,7 @@ const Chart = () => {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 className="wa-vectors-list__preview-img"
-                src="/dashboard.jpeg"
+                src="/dashboard-yellow.jpeg"
                 alt="preview"
               />
               {/* team members */}
