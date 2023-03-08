@@ -2836,7 +2836,7 @@ a:active .wa-vectors-list__item-title {
 @media (min-width: 888px) {
   .wa-vectors-list__items {
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 0px;
   }
 }
 
@@ -3998,7 +3998,7 @@ path {
 
 @media (min-width: 888px) {
   .wa-vectors-list--6 .wa-vectors-list__lines {
-    margin-bottom: 26px;
+    margin-bottom: 0px;
   }
 }
 
