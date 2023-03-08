@@ -19,12 +19,14 @@ const Navbar = (props: Props) => {
       <div className="container-default w-container">
         <div className="header-wrapper">
           <div className="split-content header-right">
-            <Link href="/" className="brand w-nav-brand" aria-label="home">
-              <img
-                src="https://assets.website-files.com/611c14f4bf91b0df48d41981/611c14f4bf91b0d0ffd41b07_logo-agency-x-template.svg"
-                alt=""
-                className="header-logo"
-              />
+            <Link
+              href="/"
+              className="brand w-nav-brand"
+              aria-label="home"
+              style={{ display: "flex", gap: "1rem", alignItems: "center" }}
+            >
+              <img src="/logo.svg" alt="" className="header-logo" />
+              <h2 style={{ fontSize: "2.1rem", marginBottom: 7 }}>DailyHive</h2>
             </Link>
           </div>
           <nav role="navigation" className="nav-menu w-nav-menu">

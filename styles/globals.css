@@ -5441,8 +5441,7 @@ figcaption {
 }
 
 .header-logo {
-  width: 189px;
-  margin-left: -3px;
+  width: 55px;
 }
 
 .header-navigation {
@@ -12131,10 +12130,9 @@ figcaption {
   justify-content: space-between;
   -ms-grid-columns: minmax(auto, 288px) minmax(auto, 288px) minmax(auto, 288px)
     minmax(auto, 288px);
-  grid-template-columns: minmax(auto, 288px) minmax(auto, 288px) minmax(
-      auto,
-      288px
-    ) minmax(auto, 288px);
+  grid-template-columns:
+    minmax(auto, 288px) minmax(auto, 288px) minmax(auto, 288px)
+    minmax(auto, 288px);
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }

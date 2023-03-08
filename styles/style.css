@@ -2949,16 +2949,12 @@ a:active .wa-vectors-list__more-link {
 }
 
 .wa-vectors-list__preview--no-data {
-  background: linear-gradient(rgba(9, 37, 64, 0.2), rgba(219, 234, 255, 0));
+  background: linear-gradient(#ff8d3999, rgba(219, 234, 255, 0));
 }
 
 @media (min-width: 888px) {
   .wa-vectors-list__preview--no-data {
-    background: linear-gradient(
-      90deg,
-      rgba(29, 132, 255, 0.47),
-      rgba(219, 234, 255, 0)
-    );
+    background: linear-gradient(90deg, #ff8d3999, rgba(219, 234, 255, 0));
   }
 }
 
