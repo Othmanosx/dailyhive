@@ -15,7 +15,8 @@ const Hero = (props: Props) => {
             className="split-content home-hero-content"
           >
             <h1 className="title home-hero">
-              Automate the way you manage your projects.
+              Automate the way you <span className="text-fade">Manage </span>
+              your software projects.
               <br />
             </h1>
             <p className="paragraph home-hero">
@@ -34,7 +35,7 @@ const Hero = (props: Props) => {
                 href="#Services-Section"
                 className="button-secondary button-2-buttons w-button"
               >
-                Pre-Order Now
+                Get Early Access
               </a>
             </div>
           </div>

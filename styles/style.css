@@ -4057,3 +4057,18 @@ path {
 .wa-we-share .data-we-share__dropdown {
   right: 0;
 }
+
+.text-fade {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#18d3c0),
+    color-stop(56%, #ff3add),
+    color-stop(94%, #4845c9)
+  );
+  background-image: linear-gradient(90deg, #ffc126, #ff8139 56%, #ff3851 94%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
