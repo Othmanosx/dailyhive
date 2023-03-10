@@ -558,7 +558,13 @@ export default function Home() {
                 data-w-id="f65bf76f-7f66-e723-c98a-7d4df6f223c3"
                 className="content-top footer-content-top"
               >
-                <div style={{ display: "flex", flexDirection: "column" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    paddingBottom: "1rem",
+                  }}
+                >
                   <Link
                     href="/"
                     className="brand w-nav-brand"
