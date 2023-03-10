@@ -6,14 +6,8 @@ const Hero = (props: Props) => {
   return (
     <div className="section home-hero wf-section">
       <div className="container-default w-container">
-        <div
-          data-w-id="e926a562-597a-4319-03f1-65f898f9a47b"
-          className="home-hero-wrapper"
-        >
-          <div
-            data-w-id="77ab0af8-78b3-5b27-db00-6535b60630b2"
-            className="split-content home-hero-content"
-          >
+        <div className="home-hero-wrapper">
+          <div className="split-content home-hero-content">
             <h1 className="title home-hero">
               Automate the way you <span className="text-fade">Manage </span>
               your software projects.

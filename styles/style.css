@@ -3123,6 +3123,28 @@ path {
   animation: float 6s ease-in-out infinite reverse;
 }
 
+@media (max-width: 888px) {
+  .wa-vectors-list__preview-img-container :nth-child(2) {
+    left: 25%;
+    top: 35%;
+  }
+  .wa-vectors-list__preview-img-container :nth-child(5) {
+    left: 50%;
+    top: 25%;
+  }
+  .wa-vectors-list__preview-img-container :nth-child(4) {
+    left: 80%;
+    top: 40%;
+  }
+  .wa-vectors-list__preview-img-container :nth-child(3) {
+    left: 65%;
+    top: 60%;
+  }
+  .wa-vectors-list__preview-img-container :nth-child(6) {
+    left: 30%;
+    top: 60%;
+  }
+}
 @media (min-width: 888px) {
   .wa-vectors-list--rotated .wa-vectors-list__preview-img-container {
     transform: unset;
