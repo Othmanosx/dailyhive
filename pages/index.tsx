@@ -45,18 +45,18 @@ export default function Home() {
                   <div className="subtitle-wrapper home-advantage">
                     <div className="subtitle-shape home-advantage" />
                     <div>
-                      Focus on one thing
+                      For Product Managers
                       <br />
                     </div>
                   </div>
                   <h2>
-                    Eliminate context switching
+                    Get a Complete Picture.
                     <br />
                   </h2>
                   <p>
-                    Lorem ipsum consectetur amet dolor sit comeneer ilremsilom
-                    dolce issilm acalrm leoinsion duycoqun consemleint lorem.
-                    Lorem ipsum consectetur amet dolor sit.
+                    Effortlessly keep track of your project&apos;s flow and
+                    status with our automated daily summaries. Maximize your
+                    team&apos;s efficiency by staying informed and up-to-date.
                   </p>
                   <div className="w-layout-grid home-advantage-features-grid">
                     <div className="list-wrapper">
@@ -66,7 +66,7 @@ export default function Home() {
                         className="image list-icon red-shadow"
                       />
                       <div className="list-text">
-                        Garantierte Ergebnisse
+                        Save Time & Reduce Meetings to Zero
                         <br />
                       </div>
                     </div>
@@ -77,7 +77,7 @@ export default function Home() {
                         className="image list-icon red-shadow"
                       />
                       <div className="list-text">
-                        10+ Jahre Erfahrung
+                        Stay informed & up-to-date
                         <br />
                       </div>
                     </div>
@@ -88,7 +88,7 @@ export default function Home() {
                         className="image list-icon red-shadow"
                       />
                       <div className="list-text">
-                        Team von Branchenexperten
+                        Gain insights
                         <a href="https://agencyxtemplate-de.webflow.io/contact">
                           <strong>
                             <br />
@@ -97,8 +97,8 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <a href="/contact" className="button-primary w-button">
-                    Kontakt aufnehmen&nbsp;&nbsp;
+                  <a href="#" className="button-primary w-button">
+                    Get Early Access&nbsp;&nbsp;
                     <span className="button-primary-arrow"></span>
                   </a>
                 </div>
@@ -150,12 +150,7 @@ export default function Home() {
                 </div>
                 <div className="home-about-images-wrapper">
                   <img
-                    src="https://assets.website-files.com/611c14f4bf91b0df48d41981/611c14f4bf91b03fdcd419f3_image-1-home-about-marketing-template.svg"
-                    alt=""
-                    className="image home-about-1"
-                  />
-                  <img
-                    src="https://assets.website-files.com/611c14f4bf91b0df48d41981/611c14f4bf91b01b9ed41afd_image-2-home-about-marketing-template.svg"
+                    src="/developer.svg"
                     alt=""
                     className="image home-about-2"
                   />
