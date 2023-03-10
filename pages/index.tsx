@@ -624,7 +624,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="divider footer-top" />
+              {/* <div className="divider footer-top" />
               <div
                 data-w-id="dc048f13-1f53-432b-65c5-83dcc56ddc08"
                 className="footer-content"
@@ -873,7 +873,7 @@ export default function Home() {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="divider footer-bottom" />
               <div
                 data-w-id="c8229ca2-125d-1851-013f-b516dc2eb22d"
