@@ -31,9 +31,9 @@ const Chart = () => {
             Simplify project management with the{" "}
             <span className="text-fade">Power of AI</span>.
           </h2>
-          DailyHive provides daily detailed summaries of your project, helping
-          you stay on top of the progress and identify areas where you can make
-          improvements.
+          DailyHive leverages the tools you already use and provides daily
+          detailed summaries of your project, helping you stay on top of the
+          progress and identify areas where you can make improvements.
           <br />
           <br />
         </div>
