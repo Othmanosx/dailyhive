@@ -113,9 +113,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="container-default w-container">
-            <div className="divider" />
-          </div>
+
           <div className="section home-about wf-section">
             <div className="container-default w-container">
               <div

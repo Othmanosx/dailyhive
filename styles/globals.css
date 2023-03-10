@@ -5571,7 +5571,7 @@ figcaption {
 
 .section {
   padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 0px;
 }
 
 .section.checkout-hero {
@@ -5582,7 +5582,7 @@ figcaption {
 
 .section.home-hero {
   overflow: hidden;
-  padding-top: 85px;
+  padding-top: 40px;
 }
 
 .section.home-hero.pages {
