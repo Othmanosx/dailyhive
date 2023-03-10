@@ -3,7 +3,7 @@ import Image from "next/image"
 const Chart = () => {
   return (
     <div
-      id="Services-Section"
+      id="how"
       className="section home-services wf-section"
       style={{ position: "relative" }}
     >

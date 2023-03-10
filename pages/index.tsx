@@ -17,7 +17,7 @@ export default function Home() {
           <Hero />
 
           <Chart />
-          <div className="section home-advantage wf-section">
+          <div id="PMs" className="section home-advantage wf-section">
             <div className="container-default w-container">
               <div
                 data-w-id="6659d30b-35bf-641f-783a-9aac3497bace"
@@ -111,7 +111,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="section home-about wf-section">
+          <div id="Devs" className="section home-about wf-section">
             <div className="container-default w-container">
               <div
                 data-w-id="fb5345a8-4c28-f382-7372-5336c2a9fc47"
@@ -425,7 +425,7 @@ export default function Home() {
             </div>
           </div> */}
 
-          <div className="section home-contact wf-section">
+          <div id="contact" className="section home-contact wf-section">
             <div className="container-default w-container">
               <div className="home-contact-wrapper">
                 <div
@@ -880,13 +880,9 @@ export default function Home() {
                 className="footer-bottom"
               >
                 <div className="footer-small-print">
-                  Copyright © Agency X | Entworfen von{" "}
-                  <a href="https://brixtemplates.com/" target="_blank">
-                    BRIX Templates
-                  </a>
-                  - Powered by{" "}
-                  <a href="https://webflow.com/" target="_blank">
-                    Webflow
+                  Copyright © DailyHive - Built by{" "}
+                  <a href="https://othman.itechnopro.com/" target="_blank">
+                    @othmanosx
                   </a>
                 </div>
                 <div className="w-layout-grid footer-social-media-grid">
