@@ -439,11 +439,11 @@ export default function Home() {
                   <h2>Get in touch today!</h2>
                   <p className="paragraph home-contact">
                     Are you tired of spending hours each day trying to keep up
-                    with your project's progress and status? Say goodbye to
+                    with your project&apos;s progress and status? Say goodbye to
                     daily meetings and manual tracking with DailyHive.
                   </p>
                   <p className="paragraph home-contact">
-                    Don't just take our word for it - hear from satisfied
+                    Don&apos;t just take our word for it - hear from satisfied
                     customers like Alex Brown and Alice Cary, who have seen
                     firsthand how DailyHive has made their jobs easier and saved
                     them time.
