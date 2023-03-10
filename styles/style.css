@@ -3991,6 +3991,19 @@ path {
     position: unset;
   }
 }
+@media (max-width: 420px) {
+  #small-lines {
+    display: none;
+  }
+  #big-lines {
+    display: none;
+  }
+}
+@media (min-width: 420px) {
+  #x-small-lines {
+    display: none;
+  }
+}
 
 .wa-vectors-list--6 .wa-vectors-list__lines {
   top: 30px;

@@ -388,6 +388,153 @@ const Chart = () => {
                 </linearGradient>
               </defs>
             </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width={160}
+              height={412}
+              fill="none"
+              viewBox="0 0 160 412"
+              id="x-small-lines"
+            >
+              <g
+                className="wa-vectors-list__line-xs-1--no-item-data"
+                opacity="0.8"
+              >
+                <path
+                  stroke="url(#wa-vectors-list__lines-xs-paint-1--keywords)"
+                  strokeWidth={8}
+                  d="M4.00001 0L4.00001 271.795C4.00001 311.141 27.6711 346.623 64 361.734L100.63 376.969C114.78 382.855 124 396.675 124 412V412"
+                />
+              </g>
+              <g
+                className="wa-vectors-list__line-xs-2--no-item-data"
+                opacity="0.6"
+                transform="translate(16, 59)"
+              >
+                <path
+                  stroke="url(#wa-vectors-list__lines-xs-paint-2--keywords)"
+                  strokeWidth={8}
+                  d="M4.00001 0L4.00001 217.7C4.00001 254.445 25.5171 287.785 59 302.921L91.0225 317.397C105.011 323.72 114 337.649 114 353V353"
+                />
+              </g>
+              <g
+                className="wa-vectors-list__line-xs-3--no-item-data"
+                opacity="0.4"
+                transform="translate(32, 117)"
+              >
+                <path
+                  stroke="url(#wa-vectors-list__lines-xs-paint-3--keywords)"
+                  strokeWidth={8}
+                  d="M4.00001 0L4.00001 164.795C4.00001 198.944 23.3817 230.134 54 245.257L81.5429 258.861C95.2949 265.653 104 279.662 104 295V295"
+                />
+              </g>
+              <g
+                className="wa-vectors-list__line-xs-5--no-item-data"
+                opacity="0.2"
+                transform="translate(64, 222)"
+              >
+                <path
+                  stroke="url(#wa-vectors-list__lines-xs-paint-5--keywords)"
+                  strokeWidth={8}
+                  d="M4 0L4 71.5361C4 99.4629 18.1063 125.5 41.5 140.753L58.2277 151.659C71.1861 160.108 79 174.531 79 190V190"
+                />
+              </g>
+              <g
+                className="wa-vectors-list__line-xs-0--no-item-data"
+                transform="translate(80, 293)"
+              >
+                <path
+                  stroke="url(#wa-vectors-list__lines-xs-paint-0--keywords)"
+                  strokeWidth={8}
+                  d="M4 0V0C4 25.5356 14.989 49.8361 34.163 66.701L49.4171 80.118C60.5942 89.949 67 104.115 67 119V119"
+                />
+              </g>
+              <g
+                className="wa-vectors-list__line-xs-4--no-item-data"
+                opacity="0.3"
+                transform="translate(48, 174)"
+              >
+                <path
+                  stroke="url(#wa-vectors-list__lines-xs-paint-4--keywords)"
+                  strokeWidth={8}
+                  d="M4.00011 0L4.00004 112.647C4.00002 143.665 20.594 172.312 47.5 187.745L69.0494 200.105C82.6265 207.892 91 222.348 91 238V238"
+                />
+              </g>
+              <defs>
+                <linearGradient
+                  className="wa-vectors-list__line-xs-color-1--no-item-data"
+                  id="wa-vectors-list__lines-xs-paint-1--keywords"
+                  x1="-32.9925"
+                  y1="314.382"
+                  x2="20.618"
+                  y2="264.026"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#C5DEFF" />
+                  <stop offset={1} stopColor="#195AFE" />
+                </linearGradient>
+                <linearGradient
+                  className="wa-vectors-list__line-xs-color-2--no-item-data"
+                  id="wa-vectors-list__lines-xs-paint-2--keywords"
+                  x1="-29.9098"
+                  y1="269.361"
+                  x2="16.1131"
+                  y2="223.112"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#C5DEFF" />
+                  <stop offset={1} stopColor="#195AFE" />
+                </linearGradient>
+                <linearGradient
+                  className="wa-vectors-list__line-xs-color-3--no-item-data"
+                  id="wa-vectors-list__lines-xs-paint-3--keywords"
+                  x1="-26.8271"
+                  y1="225.103"
+                  x2="11.4823"
+                  y2="183.224"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#C5DEFF" />
+                  <stop offset={1} stopColor="#195AFE" />
+                </linearGradient>
+                <linearGradient
+                  className="wa-vectors-list__line-xs-color-5--no-item-data"
+                  id="wa-vectors-list__lines-xs-paint-5--keywords"
+                  x1="-19.1203"
+                  y1="144.982"
+                  x2="4.94707"
+                  y2="114.345"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#C5DEFF" />
+                  <stop offset={1} stopColor="#195AFE" />
+                </linearGradient>
+                <linearGradient
+                  className="wa-vectors-list__line-xs-color-0--no-item-data"
+                  id="wa-vectors-list__lines-xs-paint-0--keywords"
+                  x1="0.031332"
+                  y1="111.106"
+                  x2="16.2572"
+                  y2="54.4641"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#C9DEFB" />
+                  <stop offset={1} stopColor="#195AFE" />
+                </linearGradient>
+                <linearGradient
+                  className="wa-vectors-list__line-xs-color-4--no-item-data"
+                  id="wa-vectors-list__lines-xs-paint-4--keywords"
+                  x1="-22.8195"
+                  y1="181.609"
+                  x2="7.79506"
+                  y2="145.519"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#C5DEFF" />
+                  <stop offset={1} stopColor="#195AFE" />
+                </linearGradient>
+              </defs>
+            </svg>
           </div>
           <div
             className="wa-vectors-list__total wa-vectors-list__total--sm data-tooltip__reference"
