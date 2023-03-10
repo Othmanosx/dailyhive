@@ -5614,7 +5614,6 @@ figcaption {
 .section.home-advantage {
   overflow: hidden;
   padding-bottom: 240px;
-  background-color: #f5f7fc;
 }
 
 .section.home-about {
@@ -5622,6 +5621,7 @@ figcaption {
   overflow: hidden;
   padding-top: 240px;
   padding-bottom: 240px;
+  background-color: #f5f7fc;
 }
 
 .section.home-process {
@@ -6795,8 +6795,7 @@ figcaption {
   display: flex;
   width: 100%;
   max-width: 660px;
-  min-height: 694px;
-  padding: 72px 48px;
+  padding: 48px;
   border-radius: 34px;
   box-shadow: 0 54px 54px 0 rgba(232, 48, 81, 0.02),
     0 1px 104px 0 rgba(20, 20, 43, 0.04), 0 98px 66px 0 rgba(19, 18, 66, 0.02);
@@ -19023,7 +19022,7 @@ figcaption {
   }
 
   .header-logo {
-    width: 158px;
+    width: 55px;
   }
 
   .nav-item-wrapper {
@@ -25278,7 +25277,7 @@ figcaption {
   }
 
   .footer-small-logo {
-    width: 158px;
+    width: 55px;
   }
 
   .footer-small-print-small {

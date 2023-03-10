@@ -30,7 +30,10 @@ const Hero = (props: Props) => {
               Eliminate time spent on daily meetings and get AI summaries from
               existing developer tools and stay informed on project progress.
             </p>
-            <form className="_2-buttons" style={{ display: "flex" }}>
+            <form
+              className="_2-buttons"
+              style={{ display: "flex", gap: "1rem" }}
+            >
               <input
                 type="email"
                 className="input email w-input"
@@ -42,7 +45,7 @@ const Hero = (props: Props) => {
                 required
               />
               <button
-                style={{ whiteSpace: "nowrap" }}
+                style={{ whiteSpace: "nowrap", margin: 0 }}
                 className="button-primary button-2-buttons w-button"
               >
                 Join Our Waitlist
@@ -54,7 +57,7 @@ const Hero = (props: Props) => {
               src="/image-2-home-hero-marketing-template.svg"
               alt=""
               className="image home-hero-2 parallax"
-              style={{ zIndex: 0 }}
+              style={{ zIndex: -10 }}
             />
             <img
               src="https://assets.website-files.com/611c14f4bf91b0df48d41981/611c14f4bf91b04bc0d41b42_image-1-home-hero-marketing-template-1.svg"

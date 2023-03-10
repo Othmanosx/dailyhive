@@ -17,9 +17,6 @@ export default function Home() {
           <Hero />
 
           <Chart />
-          <div className="container-default w-container">
-            <div className="divider" />
-          </div>
           <div className="section home-advantage wf-section">
             <div className="container-default w-container">
               <div
@@ -127,28 +124,68 @@ export default function Home() {
                   <div className="subtitle-wrapper home-about">
                     <div className="subtitle-shape home-about" />
                     <div>
-                      Über uns
+                      For Developers
                       <br />
                     </div>
                   </div>
                   <h2 className="title home-about">
-                    Wir sind wie eine Erweiterung Ihres Marketingteams
+                    Focus on what you want
                     <br />
                   </h2>
                   <p>
-                    Lorem ipsum consectetur amet dolor sit comeneer ilremsilom
-                    dolce issilm acalrm leoinsion duycoqun consemleint lorem.
-                    Lorem ipsum consectetur amet dolor sit. Lorem ipsum
-                    consectetur amet dolor sit comeneer ilremsilom dolce issilm
-                    acalrm leoinsion duycoqun consemleint lorem. Lorem ipsum
-                    consectetur amet dolor sit.
+                    DailyHive handles and automates your tedious daily project
+                    reports, so you can free up time and stay focused on what
+                    you do best.
                   </p>
+                  <div className="w-layout-grid home-advantage-features-grid">
+                    <div className="list-wrapper">
+                      <img
+                        src="https://assets.website-files.com/611c14f4bf91b0df48d41981/611c14f4bf91b01d0ad419ca_icon-1-check-marketing-template.svg"
+                        alt=""
+                        className="image list-icon red-shadow"
+                      />
+                      <div className="list-text">
+                        Automate daily reporting
+                        <br />
+                      </div>
+                    </div>
+                    <div className="list-wrapper">
+                      <img
+                        src="https://assets.website-files.com/611c14f4bf91b0df48d41981/611c14f4bf91b01d0ad419ca_icon-1-check-marketing-template.svg"
+                        alt=""
+                        className="image list-icon red-shadow"
+                      />
+                      <div className="list-text">
+                        Eliminate Context Switching
+                        <br />
+                      </div>
+                    </div>
+
+                    <div className="list-wrapper">
+                      <img
+                        src="https://assets.website-files.com/611c14f4bf91b0df48d41981/611c14f4bf91b01d0ad419ca_icon-1-check-marketing-template.svg"
+                        alt=""
+                        className="image list-icon red-shadow"
+                      />
+                      <div className="list-text">
+                        Promote asynchronous communication
+                        <a href="https://agencyxtemplate-de.webflow.io/contact">
+                          <strong>
+                            <br />
+                          </strong>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                   <a href="/about" className="button-primary w-button">
-                    Über uns&nbsp;&nbsp;
+                    Get Early Access&nbsp;&nbsp;
                     <span className="button-primary-arrow"></span>
                   </a>
                 </div>
-                <div className="home-about-images-wrapper">
+                <div
+                  className="home-about-images-wrapper"
+                  style={{ zIndex: 1 }}
+                >
                   <img
                     src="/developer.svg"
                     alt=""
@@ -159,11 +196,12 @@ export default function Home() {
                   src="https://assets.website-files.com/611c14f4bf91b0df48d41981/611c14f4bf91b0f08cd419fa_bg-service-hero-marketing-template.jpg"
                   alt=""
                   className="bg home-about"
+                  style={{ zIndex: 0, mixBlendMode: "multiply" }}
                 />
               </div>
             </div>
           </div>
-          <div className="section home-process wf-section">
+          {/* <div className="section home-process wf-section">
             <div
               data-w-id="da04892b-6f9f-b766-517a-8b6522ae759e"
               className="container-medium-664px home-process"
@@ -385,7 +423,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="section home-contact wf-section">
             <div className="container-default w-container">
@@ -396,12 +434,23 @@ export default function Home() {
                 >
                   <div className="subtitle-wrapper">
                     <div className="subtitle-shape hidden" />
-                    <div>Request a Quote</div>
+                    <div>Interested?</div>
                   </div>
                   <h2>Get in touch today!</h2>
                   <p className="paragraph home-contact">
-                    Lorem ipsum consectetur amet dolor sit comeneer ilremsilom
-                    dolce issilm acalrm leoinsion duycoqun consemleint lorem.
+                    Are you tired of spending hours each day trying to keep up
+                    with your project's progress and status? Say goodbye to
+                    daily meetings and manual tracking with DailyHive.
+                  </p>
+                  <p className="paragraph home-contact">
+                    Don't just take our word for it - hear from satisfied
+                    customers like Alex Brown and Alice Cary, who have seen
+                    firsthand how DailyHive has made their jobs easier and saved
+                    them time.
+                  </p>
+                  <p className="paragraph home-contact">
+                    Join our waiting list now and take the first step towards
+                    streamlined project management!
                   </p>
                   <div className="w-layout-grid home-contact-links-grid">
                     <a
@@ -416,7 +465,7 @@ export default function Home() {
                       />
                       <div className="list-text">contact@agency.com</div>
                     </a>
-                    <a
+                    {/* <a
                       id="w-node-_99f0af30-eb6f-323c-bf73-311c0a926a90-84d4199b"
                       href="tel:(487)870-0710"
                       className="contact-link w-inline-block"
@@ -427,13 +476,10 @@ export default function Home() {
                         className="image contact-link-icon"
                       />
                       <div className="list-text">(487) 870 - 0710</div>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
-                <div
-                  data-w-id="147ec1f6-4b19-916c-e812-07e81ad0f146"
-                  className="card contact-form"
-                >
+                <div className="card contact-form">
                   <div className="contact-form-block w-form">
                     <form
                       id="wf-form-Contact-Form"
@@ -448,7 +494,7 @@ export default function Home() {
                         maxLength={256}
                         name="name"
                         data-name="Name"
-                        placeholder="Vollständiger Name"
+                        placeholder="Name"
                         id="name"
                         required
                       />
@@ -458,71 +504,28 @@ export default function Home() {
                         maxLength={256}
                         name="email"
                         data-name="Email"
-                        placeholder="E-Mail Adresse"
+                        placeholder="E-Mail Address"
                         id="email"
                         required
                       />
-                      <input
-                        type="tel"
-                        className="input phone w-input"
-                        maxLength={256}
-                        name="Phone"
-                        data-name="Phone"
-                        placeholder="Rufnummer"
-                        id="Phone"
-                        required
-                      />
-                      <input
-                        type="text"
-                        className="input company w-input"
-                        maxLength={256}
-                        name="Company"
-                        data-name="Company"
-                        placeholder="Name des Unternehmens"
-                        id="Company"
-                        required
-                      />
-                      <input
-                        type="text"
-                        className="input w-input"
-                        maxLength={256}
-                        name="Service"
-                        data-name="Service"
-                        placeholder="Dienst"
-                        id="Service"
-                        required
-                      />
-                      <input
-                        type="text"
-                        className="input w-input"
-                        maxLength={256}
-                        name="Budget"
-                        data-name="Budget"
-                        placeholder="Haushalt"
-                        id="Budget-2"
-                        required
-                      />
+
                       <textarea
-                        placeholder="Beschreiben Sie Ihr Projekt..."
+                        placeholder="Let us know you're intrested..."
                         maxLength={5000}
+                        rows={10}
                         id="Message"
                         name="Message"
                         data-name="Message"
                         className="text-area w-node-_8fd8aa8e-bf66-910c-af66-63acd8fd0ecb-84d4199b w-input"
                         defaultValue={""}
                       />
-                      <div
+                      <button
                         id="w-node-_0b1a965e-46c0-bc92-530e-9ca3002915cc-84d4199b"
                         className="button-primary contact-form-button"
                       >
-                        <input
-                          type="submit"
-                          defaultValue="Kontakt aufnehmen"
-                          data-wait="Warten Sie mal..."
-                          className="contact-form-link w-button"
-                        />
+                        Submit
                         <div className="link-arrow"></div>
-                      </div>
+                      </button>
                     </form>
                     <div className="success-message w-form-done">
                       <div>
@@ -555,25 +558,32 @@ export default function Home() {
                 data-w-id="f65bf76f-7f66-e723-c98a-7d4df6f223c3"
                 className="content-top footer-content-top"
               >
-                <div className="split-content footer-content-top-left">
+                <div style={{ display: "flex", flexDirection: "column" }}>
                   <Link
                     href="/"
-                    className="footer-logo-container w-inline-block"
+                    className="brand w-nav-brand"
+                    aria-label="home"
+                    style={{
+                      display: "flex",
+                      gap: "1rem",
+                      alignItems: "center",
+                    }}
                   >
-                    <img
-                      src="https://assets.website-files.com/611c14f4bf91b0df48d41981/611c14f4bf91b0d0ffd41b07_logo-agency-x-template.svg"
-                      alt=""
-                      className="footer-logo"
-                    />
+                    <img src="/logo.svg" alt="" className="header-logo" />
+                    <h2 style={{ fontSize: "2.1rem", marginBottom: 7 }}>
+                      DailyHive
+                    </h2>
                   </Link>
                   <p className="paragraph footer-main-paragraph">
-                    Lorem ipsum consectetur amet dolor sit comeneer ilremsilom
-                    dolce issilm acalrm leoinsion duycoqun consemleint lorem.
+                    Join the waiting list for AI Summarizer today and be the
+                    first to experience the benefits of automated project
+                    management.
                   </p>
                 </div>
+
                 <div className="split-content footer-content-top-right">
                   <h2 className="title h3-size footer-newsletter">
-                    Abonnieren Sie unseren Newsletter
+                    Join our NewsLetter
                     <br />
                   </h2>
                   <div className="footer-newsletter-form-block w-form">
@@ -590,19 +600,16 @@ export default function Home() {
                         maxLength={256}
                         name="Email"
                         data-name="Email"
-                        placeholder="Ihre E-Mail eingeben"
+                        placeholder="E-Mail Address"
                         id="Email"
                         required
                       />
-                      <div className="button-primary footer-newsletter">
-                        <input
-                          type="submit"
-                          defaultValue="Abonnieren"
-                          data-wait="Warten Sie mal..."
-                          className="footer-newsletter-link w-button"
-                        />
-                        <div className="link-arrow"></div>
-                      </div>
+                      <button
+                        type="submit"
+                        className="button-primary footer-newsletter"
+                      >
+                        Submit<div className="link-arrow"></div>
+                      </button>
                     </form>
                     <div className="success-message w-form-done">
                       <div>
