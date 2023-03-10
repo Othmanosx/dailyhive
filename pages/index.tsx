@@ -45,12 +45,12 @@ export default function Home() {
                   <div className="subtitle-wrapper home-advantage">
                     <div className="subtitle-shape home-advantage" />
                     <div>
-                      Warum Marketing-Agentur
+                      Focus on one thing
                       <br />
                     </div>
                   </div>
                   <h2>
-                    Warum mit uns arbeiten?
+                    Eliminate context switching
                     <br />
                   </h2>
                   <p>

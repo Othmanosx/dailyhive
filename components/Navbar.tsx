@@ -362,7 +362,7 @@ const Navbar = (props: Props) => {
               href="/contact"
               className="button-primary header-button w-button"
             >
-              Kontakt aufnehmen&nbsp;&nbsp;
+              Get Early Access&nbsp;&nbsp;
               <span className="button-primary-arrow"></span>
             </a>
             <div

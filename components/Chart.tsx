@@ -321,7 +321,7 @@ const Chart = () => {
               <img
                 src="/ai.avif"
                 alt=""
-                style={{ filter: "hue-rotate(137deg)" }}
+                style={{ filter: "hue-rotate(125deg)" }}
               />
             </div>
           </div>

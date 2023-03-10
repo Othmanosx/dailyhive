@@ -5140,7 +5140,7 @@ figcaption {
 }
 
 .button-primary {
-  padding: 28px 50px;
+  padding: 23px 32px;
   border-radius: 1000px;
   background-color: #ff3951;
   box-shadow: 0 8px 22px 0 rgba(255, 57, 81, 0.28);
@@ -5219,7 +5219,7 @@ figcaption {
 }
 
 .button-primary.button-2-buttons {
-  margin-right: 20px;
+  margin-left: 20px;
   margin-bottom: 15px;
 }
 
