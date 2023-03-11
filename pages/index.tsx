@@ -581,9 +581,8 @@ export default function Home() {
                     </h2>
                   </Link>
                   <p className="paragraph footer-main-paragraph">
-                    Join the waiting list for AI Summarizer today and be the
-                    first to experience the benefits of automated project
-                    management.
+                    Join the waiting list today and be the first to experience
+                    the benefits of automated project management.
                   </p>
                 </div>
 
