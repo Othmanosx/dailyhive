@@ -1,0 +1,8 @@
+{
+  "cSpell.words": ["apptagapps"],
+  "files.exclude": {
+    "**/pages": true,
+    "**/build": true,
+    "**/*.test.js": true
+  }
+}
