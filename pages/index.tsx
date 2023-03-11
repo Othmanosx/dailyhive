@@ -1,14 +1,27 @@
 /* eslint-disable @next/next/no-img-element */
-import { Swiper, SwiperSlide } from "swiper/react"
 
-// Import Swiper styles
-import "swiper/css"
 import Hero from "@/components/Hero"
 import Navbar from "@/components/Navbar"
 import Link from "next/link"
 import Chart from "@/components/Chart"
+import { useMutation } from "@tanstack/react-query"
 
 export default function Home() {
+  const { mutate, isLoading, isSuccess } = useMutation({
+    mutationFn: ({ name, email, message }: any) =>
+      fetch("/api/submit", {
+        method: "POST",
+        body: JSON.stringify({ name, email, message }),
+      }),
+  })
+  function submit(e: any) {
+    e.preventDefault()
+    mutate({
+      name: e.target[0].value,
+      email: e.target[1].value,
+      message: e.target[2].value,
+    })
+  }
   return (
     <div>
       <div>
@@ -94,7 +107,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <a href="#" className="button-primary w-button">
+                  <a href="#contact" className="button-primary w-button">
                     Get Early Access&nbsp;&nbsp;
                     <span className="button-primary-arrow"></span>
                   </a>
@@ -169,15 +182,10 @@ export default function Home() {
                       />
                       <div className="list-text">
                         Promote asynchronous communication
-                        <a href="https://agencyxtemplate-de.webflow.io/contact">
-                          <strong>
-                            <br />
-                          </strong>
-                        </a>
                       </div>
                     </div>
                   </div>
-                  <a href="#" className="button-primary w-button">
+                  <a href="#contact" className="button-primary w-button">
                     Get Early Access&nbsp;&nbsp;
                     <span className="button-primary-arrow"></span>
                   </a>
@@ -453,7 +461,7 @@ export default function Home() {
                     streamlined project management!
                   </p>
                   <div className="w-layout-grid home-contact-links-grid">
-                    <a
+                    {/* <a
                       id="w-node-c5f7cb3b-cb93-4635-15f5-b790977033a4-84d4199b"
                       href="mailto:contact@agency.com"
                       className="contact-link w-inline-block"
@@ -464,7 +472,7 @@ export default function Home() {
                         className="image contact-link-icon"
                       />
                       <div className="list-text">contact@agency.com</div>
-                    </a>
+                    </a> */}
                     {/* <a
                       id="w-node-_99f0af30-eb6f-323c-bf73-311c0a926a90-84d4199b"
                       href="tel:(487)870-0710"
@@ -482,6 +490,7 @@ export default function Home() {
                 <div className="card contact-form">
                   <div className="contact-form-block w-form">
                     <form
+                      onSubmit={submit}
                       id="wf-form-Contact-Form"
                       name="wf-form-Contact-Form"
                       data-name="Contact Form"
@@ -520,10 +529,15 @@ export default function Home() {
                         defaultValue={""}
                       />
                       <button
+                        disabled={isLoading}
                         id="w-node-_0b1a965e-46c0-bc92-530e-9ca3002915cc-84d4199b"
                         className="button-primary contact-form-button"
                       >
-                        Submit
+                        {isSuccess
+                          ? "Thank you!"
+                          : isLoading
+                          ? "Loading..."
+                          : "Submit"}
                         <div className="link-arrow"></div>
                       </button>
                     </form>

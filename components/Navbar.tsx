@@ -69,7 +69,10 @@ const Navbar = (props: Props) => {
             </ul>
           </nav>
           <div className="split-content header-left">
-            <a href="#" className="button-primary header-button w-button">
+            <a
+              href="#contact"
+              className="button-primary header-button w-button"
+            >
               Get Early Access&nbsp;&nbsp;
               <span className="button-primary-arrow"></span>
             </a>

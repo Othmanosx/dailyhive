@@ -1,8 +1,19 @@
-import { useEffect } from "react"
+import { useMutation } from "@tanstack/react-query"
+import { useEffect, useState } from "react"
 
 type Props = {}
 
 const Hero = (props: Props) => {
+  const [email, setEmail] = useState("")
+  const { mutate, isLoading, isSuccess } = useMutation<any>({
+    mutationFn: () =>
+      fetch("/api/submit", {
+        method: "POST",
+        body: JSON.stringify({
+          email: email,
+        }),
+      }),
+  })
   useEffect(() => {
     document.addEventListener("scroll", (e) => {
       const distance = window.scrollY
@@ -15,6 +26,10 @@ const Hero = (props: Props) => {
         )}px)`
     })
   }, [])
+  function submit(e: any) {
+    e.preventDefault()
+    mutate()
+  }
 
   return (
     <div className="section home-hero wf-section">
@@ -32,6 +47,7 @@ const Hero = (props: Props) => {
             </p>
             <form
               className="_2-buttons"
+              onSubmit={submit}
               style={{ display: "flex", gap: "1rem" }}
             >
               <input
@@ -39,16 +55,22 @@ const Hero = (props: Props) => {
                 className="input email w-input"
                 maxLength={256}
                 name="email"
+                onChange={(e) => setEmail(e.target.value)}
                 data-name="Email"
                 placeholder="E-Mail Address"
                 id="email"
                 required
               />
               <button
+                disabled={isLoading}
                 style={{ whiteSpace: "nowrap", margin: 0 }}
                 className="button-primary button-2-buttons w-button"
               >
-                Join Our Waitlist
+                {isSuccess
+                  ? "Thank you!"
+                  : isLoading
+                  ? "Loading..."
+                  : "Join Our Waitlist"}
               </button>
             </form>
           </div>
