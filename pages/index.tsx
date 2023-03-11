@@ -177,7 +177,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <a href="/about" className="button-primary w-button">
+                  <a href="#" className="button-primary w-button">
                     Get Early Access&nbsp;&nbsp;
                     <span className="button-primary-arrow"></span>
                   </a>
