@@ -23,8 +23,6 @@ export default function Home() {
     })
   }
 
-  // HOTJAR INTEGRATION
-
   return (
     <div>
       <div>
@@ -908,27 +906,27 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="w-layout-grid footer-social-media-grid">
-                  <a
+                  {/* <a
                     href="https://www.facebook.com/"
                     target="_blank"
                     className="footer-social-media-link facebook w-inline-block"
-                  />
+                  /> */}
                   <a
-                    href="https://twitter.com/"
+                    href="https://twitter.com/Brieflytics"
                     target="_blank"
                     className="footer-social-media-link twitter w-inline-block"
                   />
-                  <a
+                  {/* <a
                     href="https://www.instagram.com/"
                     target="_blank"
                     className="footer-social-media-link instagram w-inline-block"
-                  />
+                  /> */}
                   <a
-                    href="https://www.linkedin.com/"
+                    href="https://www.linkedin.com/company/brieflytics"
                     target="_blank"
                     className="footer-social-media-link linkedin w-inline-block"
                   />
-                  <a
+                  {/* <a
                     href="https://www.youtube.com/"
                     target="_blank"
                     className="footer-social-media-link youtube w-inline-block"
@@ -937,7 +935,7 @@ export default function Home() {
                     href="https://www.whatsapp.com/"
                     target="_blank"
                     className="footer-social-media-link whatsapp w-inline-block"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
