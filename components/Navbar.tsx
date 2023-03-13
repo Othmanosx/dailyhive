@@ -26,7 +26,9 @@ const Navbar = (props: Props) => {
               style={{ display: "flex", gap: "1rem", alignItems: "center" }}
             >
               <img src="/logo.svg" alt="" className="header-logo" />
-              <h2 style={{ fontSize: "2.1rem", marginBottom: 7 }}>DailyHive</h2>
+              <h2 style={{ fontSize: "2.1rem", marginBottom: 7 }}>
+                Brieflytics
+              </h2>
             </Link>
           </div>
           <nav role="navigation" className="nav-menu w-nav-menu">

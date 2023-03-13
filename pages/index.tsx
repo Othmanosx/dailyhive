@@ -147,7 +147,7 @@ export default function Home() {
                     <br />
                   </h2>
                   <p>
-                    DailyHive handles and automates your tedious daily project
+                    Brieflytics handles and automates your tedious daily project
                     reports, so you can free up time and stay focused on what
                     you do best.
                   </p>
@@ -449,17 +449,12 @@ export default function Home() {
                   <p className="paragraph home-contact">
                     Are you tired of spending hours each day trying to keep up
                     with your project&apos;s progress and status? Say goodbye to
-                    daily meetings and manual tracking with DailyHive.
+                    daily meetings and manual tracking with Brieflytics.
                   </p>
+
                   <p className="paragraph home-contact">
-                    Don&apos;t just take our word for it - hear from satisfied
-                    customers like Alex Brown and Alice Cary, who have seen
-                    firsthand how DailyHive has made their jobs easier and saved
-                    them time.
-                  </p>
-                  <p className="paragraph home-contact">
-                    Join our waiting list now and take the first step towards
-                    streamlined project management!
+                    We&apos;re still pre-launch, Join our waiting list now and
+                    take the first step towards streamlined project management!
                   </p>
                   <div className="w-layout-grid home-contact-links-grid">
                     {/* <a
@@ -592,7 +587,7 @@ export default function Home() {
                   >
                     <img src="/logo.svg" alt="" className="header-logo" />
                     <h2 style={{ fontSize: "2.1rem", marginBottom: 7 }}>
-                      DailyHive
+                      Brieflytics
                     </h2>
                   </Link>
                   <p className="paragraph footer-main-paragraph">
@@ -900,7 +895,7 @@ export default function Home() {
                 className="footer-bottom"
               >
                 <div className="footer-small-print">
-                  Copyright © DailyHive - Built by{" "}
+                  Copyright © Brieflytics - Built by{" "}
                   <a href="https://othman.itechnopro.com/" target="_blank">
                     @othmanosx
                   </a>

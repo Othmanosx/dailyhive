@@ -26,12 +26,12 @@ const Chart = () => {
           className="home-services-title-wrapper"
         >
           <h2 className="title home-services">
-            {/* Get organized and save time with DailyHive, the automated way to
+            {/* Get organized and save time with Brieflytics, the automated way to
             manage projects and teams. */}
             Simplify project management with the{" "}
             <span className="text-fade">Power of AI</span>.
           </h2>
-          DailyHive leverages the tools you already use and provides daily
+          Brieflytics leverages the tools you already use and provides daily
           detailed summaries of your project, helping you stay on top of the
           progress and identify areas where you can make improvements.
           <br />
