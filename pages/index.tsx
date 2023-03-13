@@ -22,6 +22,9 @@ export default function Home() {
       message: e.target[2].value,
     })
   }
+
+  // HOTJAR INTEGRATION
+
   return (
     <div>
       <div>
