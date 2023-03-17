@@ -7,6 +7,7 @@ import Script from "next/script"
 import { useState } from "react"
 import * as gtag from "../utils/gtag"
 import HotJar from "@/components/HotJar"
+import { DefaultSeo } from "next-seo"
 
 export default function App({ Component, pageProps }: AppProps) {
   const [queryClient] = useState(
@@ -22,6 +23,25 @@ export default function App({ Component, pageProps }: AppProps) {
   )
   return (
     <QueryClientProvider client={queryClient}>
+      <DefaultSeo
+        title="Brieflytics"
+        canonical={"https://brieflytics.vercel.app"}
+        description="streamline project management with AI-powered daily summaries from Jira, Github, and more"
+        openGraph={{
+          type: "website",
+          title: "Brieflytics",
+          locale: "en",
+          url: "https://brieflytics.vercel.app",
+          siteName: "Brieflytics",
+          description:
+            "streamline project management with AI-powered daily summaries from Jira, Github, and more",
+          images: [{ url: "/thumbnail.webp", alt: "Brieflytics platform" }],
+        }}
+        twitter={{
+          site: "@Brieflytics",
+          cardType: "summary_large_image",
+        }}
+      />
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
       />
