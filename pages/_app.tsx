@@ -8,7 +8,7 @@ import { useState } from "react"
 import * as gtag from "../utils/gtag"
 import HotJar from "@/components/HotJar"
 import { DefaultSeo } from "next-seo"
-
+import Thumbnail from "@/public/thumbnail.png"
 export default function App({ Component, pageProps }: AppProps) {
   const [queryClient] = useState(
     () =>
@@ -35,7 +35,7 @@ export default function App({ Component, pageProps }: AppProps) {
           siteName: "Brieflytics",
           description:
             "streamline project management with AI-powered daily summaries from Jira, Github, and more",
-          images: [{ url: "/thumbnail.webp", alt: "Brieflytics platform" }],
+          images: [{ url: Thumbnail.src, alt: "Brieflytics platform" }],
         }}
         twitter={{
           site: "@Brieflytics",
